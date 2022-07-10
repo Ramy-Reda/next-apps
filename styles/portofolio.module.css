@@ -1,0 +1,66 @@
+.navAbout {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(174, 223, 249);
+    margin-top: 77px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.navAbout h2, .navAbout p span{
+    font-weight: 300;
+    color: #333;
+}
+
+.navAbout p span{
+    font-size: 20px;
+}
+
+.navAbout p a{
+    font-size:20px;
+    color: rgb(95, 95, 250);
+}
+
+/* Start Father */
+
+.portfolio{
+    position: relative;
+    top: 0;
+    left: 30%;
+    transform: translateY(-50%);
+}
+
+.portfolio li{
+    float: left;
+    margin-right: 20px;
+    font-size:25px;
+    font-weight:600;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all .3s;
+
+}
+
+.portfolio li.active, .portfolio li:hover{
+    color: #1daffe;
+    border-bottom: 3px solid #1daffe;
+}
+
+.ports{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ports div img{
+    border-radius:10px;
+}
+
+
+

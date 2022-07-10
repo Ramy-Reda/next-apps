@@ -1,0 +1,108 @@
+
+.footer{
+    background-color: #0d2735;
+    margin-bottom:0;
+    padding-bottom:0
+}
+
+.footer .top{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.footer hr{
+    width: 100%;
+    height: 1px;
+    background-color: #021017;
+    position: relative;
+    top: 152px;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .top .title h1{
+    color: rgb(72, 86, 82);
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    text-transform: capitalize;
+}
+
+.footer .top .title p{
+    color:#fff
+}
+
+.footer .letter .input{
+    border: none;
+    outline: none;
+    width: 400px;
+    padding:14px;
+    border-radius:50px;
+}
+.footer .letter{
+    position: relative;
+}
+.footer .letter .btn{
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius:50px;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    z-index: 1;
+    background-color: #64a5c7;
+    color: aliceblue;
+    font-size:15px;
+    text-transform: capitalize;
+}
+.footer .letter .btn:hover{
+    background-color: #0d2735
+}
+
+.footer .bottom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .bottom h2{
+    text-transform: capitalize;
+    color: #fff;
+    font: weight 700px;
+}
+
+.footer .bottom ul li{
+    color: aliceblue;
+    margin: 10px;
+}
+
+.footer .bottom ul li i{
+    padding-right: 10px;
+    color: #64a5c7;
+}
+
+.footer .bottom .social i{
+    margin-right: 14px;
+    margin-top: 24px;
+    width: 50px;
+    height: 50px;
+    background: #2d4d5e;
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+    color: #f8f8f8;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s
+}
+.footer .bottom .social i:hover{
+    background-color: #6ea0ba
+}
+
+.footer .end{
+    display: flex;
+    justify-content:center;
+    color: #fff;
+    padding: 20px;
+}

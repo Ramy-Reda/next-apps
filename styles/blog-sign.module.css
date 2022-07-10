@@ -1,0 +1,101 @@
+.main{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.sidebar{
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0px 1px 20px 3px rgb(0 0 0 / 20%)
+}
+
+.sidebar .input {
+    position: relative;
+}
+.sidebar h3{
+    color: #1e4356;
+}
+
+.sidebar .input input{
+    width: 70%;
+    height: 30px;
+    border: .3px solid #1e4356;
+    outline: none;
+}
+
+.sidebar .input i{
+    position: absolute;
+    top: -1px;
+    right: 52px;
+    color: white;
+    background: #68A4C4;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.gate p{
+    font-size:17px;
+    font-weight:600;
+
+}
+
+.gate span{
+    color: #555
+}
+.posts .post {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.posts .post a{
+    color: #1e4356;
+}
+
+.posts .post p{
+    margin-top: -0px;
+}
+
+.taps .tap{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.taps .tap p{
+    padding: 5px 10px;
+    margin: 5px;
+    border: .4px solid #68A4C4;
+    color: #68A4C4;
+}
+
+/* End side bar */
+
+/* Start disvription */
+.discription .disc{
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 20px
+}
+.discription .disc h2{
+    color: #1e4356
+}
+
+.discription .disc p{
+    font-size:15px;
+    font-weight: 600;
+}
+
+.discription .disc button{
+    border: none;
+    background: #68A4C4;
+    color: #fff;
+    text-align: right;
+    padding: 10px 20px;
+}

@@ -1,0 +1,163 @@
+/* :root{
+    --main-color: #1e4356;
+    --sconde-color: #68A4C4;
+} */
+
+.navAbout {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(174, 223, 249);
+    margin-top: 77px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.navAbout h2, .navAbout p span{
+    font-weight: 300;
+    color: #333;
+}
+
+.navAbout p span{
+    font-size: 20px;
+}
+
+.navAbout p a{
+    font-size:20px;
+    color: rgb(95, 95, 250);
+}
+/* End Header */
+
+/* Start side bar */
+
+.main{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 40px;
+}
+
+.sidebar{
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0px 1px 20px 3px rgb(0 0 0 / 20%)
+}
+
+.sidebar .input {
+    position: relative;
+}
+.sidebar h3{
+    color: #1e4356;
+}
+
+.sidebar .input input{
+    width: 70%;
+    height: 30px;
+    border: .3px solid #1e4356;
+    outline: none;
+}
+
+.sidebar .input i{
+    position: absolute;
+    top: -1px;
+    right: 52px;
+    color: white;
+    background: #68A4C4;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.gate p{
+    font-size:17px;
+    font-weight:600;
+
+}
+
+.gate span{
+    color: #555
+}
+.posts .post {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.posts .post a{
+    color: #1e4356;
+}
+
+.posts .post p{
+    margin-top: -0px;
+}
+
+.taps .tap{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.taps .tap p{
+    padding: 5px 10px;
+    margin: 5px;
+    border: .4px solid #68A4C4;
+    color: #68A4C4;
+}
+
+/* End side bar */
+
+/* Start Description */
+
+.discs .disc{
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 20px
+}
+.discs .disc h2{
+    color: #1e4356
+}
+
+.discs .disc p{
+    font-size:15px;
+    font-weight: 600;
+}
+
+.discs .disc button{
+    border: none;
+    background: #68A4C4;
+    color: #fff;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.nums{
+    display: flex;
+    justify-content:center;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    align-items: center;
+    background-color: #fff;
+}
+
+.nums h1{
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 10px 20px;
+    background: #ddd;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.nums h1.active{
+    background-color: #68A4C4;
+    color: white;
+}
+
+/* End Discription */
